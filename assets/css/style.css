@@ -2274,6 +2274,7 @@ a.link-btn:hover:after {
   font-weight: 700;
   float: right;
   padding-right: 10px;
+  display: none;
 }
 
 .mobile-menu-wrapper .mean-menu-area .mobile-menu ul li.menu-item-has-children.show > a {
