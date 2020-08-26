@@ -4028,7 +4028,7 @@ header .header-btn button:hover {
 
 .about-wrap-layout4 .about-us-img {
   position: relative;
-  min-height: 570px;
+  min-height: 400px;
 }
 
 .about-wrap-layout4 .about-us-img .small-img,
@@ -4041,7 +4041,7 @@ header .header-btn button:hover {
 .about-wrap-layout4 .about-us-img .small-img:before, .about-wrap-layout4 .about-us-img .small-img:after,
 .about-wrap-layout4 .about-us-img .big-img:before,
 .about-wrap-layout4 .about-us-img .big-img:after {
-  content: '';
+  /*content: '';*/
   position: absolute;
   width: 12px;
   height: 12px;
@@ -4124,7 +4124,7 @@ header .header-btn button:hover {
   z-index: 1;
 }
 
-.about-wrap-layout4 .about-us-img:before {
+/*.about-wrap-layout4 .about-us-img:before {
   content: '';
   display: inline-block;
   width: 450px;
@@ -4139,7 +4139,7 @@ header .header-btn button:hover {
   border-radius: 50%;
   -webkit-animation: cspine 50s linear infinite;
           animation: cspine 50s linear infinite;
-}
+}*/
 
 .about-wrap-layout5 .about-us-img {
   position: relative;
@@ -9071,7 +9071,7 @@ header .header-btn button:hover {
 .breadcumb-layout1 .breadcumb-content ul {
   position: absolute;
   bottom: 0;
-  right: 0;
+  /*right: 0;*/
   display: inline-block;
   background-color: #ffffff;
   padding: 10px 67px;
