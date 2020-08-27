@@ -3518,6 +3518,7 @@ header .header-btn button:hover {
   font-size: 40px;
   text-transform: uppercase;
   letter-spacing: 2px;
+  line-height: 40px;
   font-weight: 600;
   margin-bottom: 40px;
   font-family: "Oswald", sans-serif;
@@ -7043,14 +7044,14 @@ header .header-btn button:hover {
 .testomonial-layout1 .single-testomonial .testomonial-content {
   position: relative;
   z-index: 1;
-  padding-left: 60px;
+  padding-left: 10px;
   /*width: calc(100% - 320px);*/
   padding-top: 45px;
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
-  padding-bottom: 55px;
-  padding-right: 105px;
+  /*padding-bottom: 55px;*/
+  padding-right: 10px;
 }
 
 .testomonial-layout1 .single-testomonial .testomonial-content:before {
