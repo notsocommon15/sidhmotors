@@ -13565,14 +13565,42 @@ header .header-btn button:hover {
 .inner-form-wrap a {
   display: inline-block;
 }
-
-.inner-form-wrap button {
+.inner-form-wrap .add button {
+  display: block;
+  margin-bottom: 20px;
+  /*margin-left: auto;*/
+  margin-right: auto !important;
+  box-shadow: none;
+}
+.inner-form-wrap .remove button {
   display: block;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto !important;
   box-shadow: none;
 }
+.add .btn-bg {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background-color: #0046e2;
+  -webkit-transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+/*.inner-form-wrap button {
+  display: block;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto !important;
+  box-shadow: none;
+}*/
+
 
 /*------------------- 6.41. Shopping Cart -------------------*/
 .vs-cart-wrapper .cart-table {
